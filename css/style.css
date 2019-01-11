@@ -110,4 +110,22 @@ h2 {
       #pricing table thead tbody td:first-child {
         background-color: #f0f0f0; }
 
+footer {
+  background-color: black; }
+  footer:before, footer:after {
+    content: "";
+    display: table; }
+  footer:after {
+    clear: both; }
+  footer .logo {
+    font-size: 1.5em;
+    border-bottom: 1px solid #ff3720;
+    width: 100%; }
+  footer address, footer .map {
+    margin: 1em; }
+  footer address {
+    float: left; }
+  footer .map {
+    float: right; }
+
 /*# sourceMappingURL=style.css.map */
