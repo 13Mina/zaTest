@@ -78,13 +78,36 @@ h2 {
       width: 90%; }
     #catalog .column p {
       margin: 1em 0em; }
-    #catalog .column a {
-      background-color: #ff3720;
-      padding: 0.5em 2em;
-      color: white;
-      text-decoration: none;
-      text-transform: uppercase; }
-      #catalog .column a:hover {
-        background-color: black; }
+
+.button {
+  background-color: #ff3720;
+  padding: 0.5em 2em;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase; }
+  .button:hover {
+    background-color: black; }
+
+#pricing {
+  text-align: center; }
+  #pricing a {
+    display: none; }
+  #pricing table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse; }
+    #pricing table td, #pricing table th {
+      padding: 1em;
+      text-align: center; }
+    #pricing table thead {
+      background-color: #ff3720; }
+      #pricing table thead th {
+        color: white; }
+        #pricing table thead th:first-child {
+          background-color: #e42b15; }
+      #pricing table thead tbody tr {
+        border-bottom: 1px solid #797979; }
+      #pricing table thead tbody td:first-child {
+        background-color: #f0f0f0; }
 
 /*# sourceMappingURL=style.css.map */
